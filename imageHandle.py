@@ -31,6 +31,7 @@ def imageHandle(file):
         color_dict[k]=round(v/sum*100,2)
     return sorted(color_dict.items(),key=lambda x:x[1],reverse=True)
 
+
 # new_im = Image.fromarray(arr)
 # new_im.show()
 
