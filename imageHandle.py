@@ -29,9 +29,14 @@ def imageHandle(file):
     # print("sum:",sum)
     for k,v in color_dict.items():
         color_dict[k]=round(v/sum*100,2)
+        #color_dict[k] = v / sum
     return sorted(color_dict.items(),key=lambda x:x[1],reverse=True)
 
+<<<<<<< HEAD
 
+=======
+#print(str(imageHandle("resnet50\\results_color_user_test\\png")))
+>>>>>>> upstream/main
 # new_im = Image.fromarray(arr)
 # new_im.show()
 
